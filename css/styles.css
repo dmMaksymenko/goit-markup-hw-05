@@ -407,6 +407,7 @@ color: #f4f4fd;
 .footer-social-list {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
 }
 .footer-social-text {
   color: #FFF;
@@ -441,4 +442,72 @@ color: #f4f4fd;
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
+
+.footer-sub {
+  
+}
+
+.footer-sub-text {
+  color:  #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-sub-button {
+display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: #4D5AE5;
+  border: none;
+}
+
+input {
+  font-family: inherit;
+  margin-right: 24px;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+}
+
+input::placeholder {
+  color:#FFFFFF;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
 /* ================= ==================== */
+
+/* =================MODAL ==================== */
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.657);
+}
+
+.modal {
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+}
