@@ -480,13 +480,13 @@ color: #f4f4fd;
   align-items: center;
   justify-content: center;
   padding: 8px 24px;
-  gap: 24px;
   border-radius: 4px;
   background: #4D5AE5;
   border: none;
 }
 .btn-sub-icon {
   margin-left: 16px;
+  fill: #FFF;
 }
 
 input {
