@@ -458,37 +458,55 @@ color: #f4f4fd;
   margin-bottom: 16px;
 }
 
-.footer-sub-button {
-display: inline-flex;
-  padding: 8px 24px;
-  justify-content: center;
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-label {
+
+}
+.form-btn-sub {
+  min-width: 165px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
+  padding: 8px 24px;
+  gap: 24px;
   border-radius: 4px;
   background: #4D5AE5;
   border: none;
 }
+.btn-sub-icon {
+  margin-left: 16px;
+}
 
 input {
   font-family: inherit;
-  margin-right: 24px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
   width: 264px;
   height: 40px;
   border-radius: 4px;
-    border: 1px solid var(--WHITE, #FFF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
 }
 
 input::placeholder {
   color:#FFFFFF;
-    font-size: 12px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-}
+  }
 /* ================= ==================== */
 
 /* =================MODAL ==================== */
