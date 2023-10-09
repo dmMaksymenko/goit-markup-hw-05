@@ -519,7 +519,14 @@ input::placeholder {
   background-color:  rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
+/* .backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+} */
 
 .modal {
   width: 408px;
@@ -535,7 +542,7 @@ input::placeholder {
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn {
@@ -614,12 +621,12 @@ input::placeholder {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input:focus .name-input-icon {
+.name-input:focus + .name-input-icon {
   fill: #4D5AE5;
 }
 
 .modal-div-name {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-textarea {
@@ -646,13 +653,13 @@ input:focus .name-input-icon {
   margin-bottom: 24px;
 }
 
-input:checked .checkbox-icon-span {
+.user-checkbox:checked {
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
 }
 
-.checkbox-icon-span {
+.user-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
