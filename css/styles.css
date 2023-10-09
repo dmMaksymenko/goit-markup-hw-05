@@ -591,7 +591,6 @@ input::placeholder {
 
 .div-name-input {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .name-input {
@@ -624,7 +623,7 @@ input::placeholder {
 }
 
 .modal-div-name {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-textarea {
