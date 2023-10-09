@@ -653,13 +653,13 @@ input::placeholder {
   margin-bottom: 24px;
 }
 
-.user-checkbox:checked {
+.user-checkbox:checked + .modal-checkbox-text > .checkbox-icon-span {
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
 }
 
-.user-checkbox {
+.checkbox-icon-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
