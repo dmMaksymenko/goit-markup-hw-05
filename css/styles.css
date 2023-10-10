@@ -531,7 +531,7 @@ input {
   width: 264px;
   height: 40px;
   border-radius: 4px;
-  color: #434455;
+  color: #ffffff;
   border: 1px solid #FFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
@@ -541,6 +541,9 @@ input::placeholder {
   color: #FFFFFF;
 }
 
+input:focus {
+color: #434455;
+}
 .modal {
   width: 408px;
   min-height: 584px;
@@ -656,7 +659,7 @@ margin-bottom: 16px;
   line-height: 1.17;
   display: block;
   letter-spacing: 0.04em;
-  color: #434455;
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
@@ -668,6 +671,7 @@ margin-bottom: 16px;
 
 .modal-textarea:focus {
   border-color: #4D5AE5;
+  color: #434455;
 }
 
 .modal-checkbox {
